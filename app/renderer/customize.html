@@ -1,0 +1,228 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; script-src 'self'; img-src 'self' data: blob: charmly-media:; style-src 'self' 'unsafe-inline'"
+    />
+    <title>Customize Charmly</title>
+    <link rel="stylesheet" href="customize.css" />
+  </head>
+  <body>
+    <div class="titlebar"></div>
+    <aside class="sidebar">
+      <div class="brand"><span class="logo"></span><span id="brand-name">Charmly</span></div>
+      <nav>
+        <button data-tab="library" class="active"><span class="ico">✦</span>Library</button>
+        <button data-tab="create"><span class="ico">✎</span>Create</button>
+        <button data-tab="appearance"><span class="ico">◐</span>Appearance</button>
+        <button data-tab="sound"><span class="ico">♪</span>Sound &amp; Reminders</button>
+        <button data-tab="general"><span class="ico">⚙</span>General</button>
+      </nav>
+      <div class="sidebar-foot">
+        <label class="switch-row small">
+          <span>Show charms</span>
+          <input type="checkbox" id="visible-quick" class="switch" />
+        </label>
+        <p class="hint" id="shortcut-hint"></p>
+      </div>
+    </aside>
+
+    <main>
+      <!-- LIBRARY -->
+      <section id="tab-library" class="tab active">
+        <header class="tab-head">
+          <div>
+            <h1>Library</h1>
+            <p class="sub">Tap a charm to hang it. Add up to five at once, and they’ll bump into each other.</p>
+          </div>
+        </header>
+        <div class="hanging">
+          <div class="hanging-head">
+            <h3>Hanging now <span id="hung-count" class="pill"></span></h3>
+            <button class="ghost" id="swing-all" title="Give them a swing">Swing</button>
+          </div>
+          <div id="hung-list" class="hung-list"></div>
+        </div>
+        <div id="collection-tabs" class="chips"></div>
+        <p id="collection-blurb" class="blurb"></p>
+        <div id="charm-grid" class="grid"></div>
+      </section>
+
+      <!-- CREATE -->
+      <section id="tab-create" class="tab">
+        <header class="tab-head">
+          <div>
+            <h1>Create</h1>
+            <p class="sub">Turn any photo into a charm: your pet, your plane, your favourite sticker.</p>
+          </div>
+        </header>
+        <div class="create">
+          <label id="drop" class="drop">
+            <input type="file" id="file" accept="image/png,image/jpeg,image/webp,image/gif" hidden />
+            <div class="drop-inner">
+              <div class="drop-icon">＋</div>
+              <strong>Drop an image here</strong>
+              <span>or click to choose · PNG, JPG, WebP</span>
+            </div>
+          </label>
+          <div id="editor" class="editor" hidden>
+            <div class="preview-wrap"><canvas id="preview" width="360" height="360"></canvas></div>
+            <div class="editor-controls">
+              <label class="field">
+                <span>Name</span>
+                <input type="text" id="custom-name" maxlength="40" placeholder="My charm" />
+              </label>
+              <label class="switch-row">
+                <span>Remove background</span>
+                <input type="checkbox" id="remove-bg" class="switch" checked />
+              </label>
+              <label class="field">
+                <span>Background tolerance</span>
+                <input type="range" id="tolerance" min="4" max="120" value="38" />
+              </label>
+              <p class="hint">Works best on photos with a plain background. Transparent PNGs are kept as they are.</p>
+              <div class="row">
+                <button class="ghost" id="create-cancel">Start over</button>
+                <button class="primary" id="create-save">Save &amp; hang</button>
+              </div>
+              <p id="create-status" class="status"></p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- APPEARANCE -->
+      <section id="tab-appearance" class="tab">
+        <header class="tab-head">
+          <div>
+            <h1>Appearance</h1>
+            <p class="sub">Pick a rope, set the size, and decide how lively things feel.</p>
+          </div>
+        </header>
+        <h3>Rope</h3>
+        <div id="rope-grid" class="rope-grid"></div>
+        <div id="neon-colors" class="swatches" hidden></div>
+        <div class="card-list">
+          <label class="field">
+            <span>Charm size</span>
+            <div class="range-row"><small>Small</small><input type="range" id="size" min="60" max="220" step="2" /><small>Large</small></div>
+          </label>
+          <label class="field">
+            <span>Opacity</span>
+            <div class="range-row"><small>Faint</small><input type="range" id="opacity" min="25" max="100" /><small>Solid</small></div>
+          </label>
+          <label class="switch-row">
+            <span>Gentle breeze<small>Charms sway a little on their own.</small></span>
+            <input type="checkbox" id="breeze" class="switch" />
+          </label>
+          <label class="switch-row">
+            <span>Cursor wind<small>Sweep your mouse past a charm to push it.</small></span>
+            <input type="checkbox" id="cursorWind" class="switch" />
+          </label>
+          <label class="field" id="display-field" hidden>
+            <span>Show on display</span>
+            <select id="display"></select>
+          </label>
+        </div>
+      </section>
+
+      <!-- SOUND & REMINDERS -->
+      <section id="tab-sound" class="tab">
+        <header class="tab-head">
+          <div>
+            <h1>Sound &amp; Reminders</h1>
+            <p class="sub">Soft chimes when charms touch, and a friendly nudge to take care of yourself.</p>
+          </div>
+        </header>
+        <div class="card-list">
+          <label class="switch-row">
+            <span>Play sound effects<small>Chimes, ticks and whooshes, all generated on the fly.</small></span>
+            <input type="checkbox" id="sound" class="switch" />
+          </label>
+          <label class="field">
+            <span>Volume</span>
+            <div class="range-row"><small>Quiet</small><input type="range" id="volume" min="0" max="100" /><small>Loud</small></div>
+          </label>
+        </div>
+        <h3>Wellbeing reminders</h3>
+        <div class="card-list">
+          <label class="switch-row">
+            <span>Charm reminders<small>Your charm wiggles and says something kind every so often.</small></span>
+            <input type="checkbox" id="rem-enabled" class="switch" />
+          </label>
+          <label class="field">
+            <span>Every</span>
+            <select id="rem-minutes">
+              <option value="20">20 minutes</option>
+              <option value="30">30 minutes</option>
+              <option value="45">45 minutes</option>
+              <option value="60">1 hour</option>
+              <option value="90">1.5 hours</option>
+              <option value="120">2 hours</option>
+            </select>
+          </label>
+          <div class="field">
+            <span>Remind me to</span>
+            <div class="checks" id="rem-kinds">
+              <label><input type="checkbox" value="water" /> Drink water</label>
+              <label><input type="checkbox" value="stretch" /> Stretch</label>
+              <label><input type="checkbox" value="eyes" /> Rest my eyes</label>
+              <label><input type="checkbox" value="breathe" /> Breathe</label>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- GENERAL -->
+      <section id="tab-general" class="tab">
+        <header class="tab-head">
+          <div>
+            <h1>General</h1>
+            <p class="sub" id="about-line"></p>
+          </div>
+        </header>
+        <div class="card-list">
+          <label class="switch-row">
+            <span>Show charms</span>
+            <input type="checkbox" id="visible" class="switch" />
+          </label>
+          <label class="switch-row">
+            <span>Launch at login</span>
+            <input type="checkbox" id="login" class="switch" />
+          </label>
+        </div>
+        <h3>Updates</h3>
+        <div class="card-list">
+          <div class="switch-row">
+            <span id="update-text">Up to date</span>
+            <div class="row">
+              <button class="ghost" id="update-check">Check now</button>
+              <button class="primary" id="update-install" hidden>Restart &amp; update</button>
+            </div>
+          </div>
+        </div>
+        <h3>Help</h3>
+        <div class="card-list">
+          <div class="tips">
+            <p><b>Drag</b> a charm to move it and set its rope length.</p>
+            <p><b>Click</b> to nudge it, <b>double-click</b> to climb up or down, <b>right-click</b> for more options.</p>
+            <p><b>Flick</b> it sideways to make it spin.</p>
+          </div>
+          <div class="row">
+            <button class="ghost" id="open-site" hidden>Website</button>
+            <button class="ghost" id="show-logs">Show logs</button>
+            <button class="danger" id="reset">Reset everything</button>
+          </div>
+          <p id="reset-confirm" class="status" hidden>
+            Click “Reset everything” again to confirm. Your custom charms are kept.
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <div id="toast" class="toast" hidden></div>
+    <script type="module" src="customize.js"></script>
+  </body>
+</html>

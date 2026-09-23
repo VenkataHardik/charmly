@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <defs>
+    <clipPath id="env"><path d="M100 6 C150 6 176 40 176 78 C176 112 138 134 120 146 L80 146 C62 134 24 112 24 78 C24 40 50 6 100 6 Z"/></clipPath>
+    <radialGradient id="sh" cx="35%" cy="30%" r="80%">
+      <stop offset="0" stop-color="#fff" stop-opacity=".45"/><stop offset=".6" stop-color="#fff" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity=".25"/>
+    </radialGradient>
+  </defs>
+  <g clip-path="url(#env)">
+    <rect x="0" y="0" width="200" height="160" fill="#ffd166"/>
+    <path d="M100 0 C60 40 56 110 80 160 L40 160 C20 110 30 40 100 0 Z" fill="#ef476f"/>
+    <path d="M100 0 C140 40 144 110 120 160 L160 160 C180 110 170 40 100 0 Z" fill="#ef476f"/>
+    <path d="M100 0 C40 30 10 100 40 160 L0 160 L0 0 Z" fill="#118ab2"/>
+    <path d="M100 0 C160 30 190 100 160 160 L200 160 L200 0 Z" fill="#118ab2"/>
+    <rect x="0" y="0" width="200" height="160" fill="url(#sh)"/>
+  </g>
+  <path d="M100 6 C150 6 176 40 176 78 C176 112 138 134 120 146 L80 146 C62 134 24 112 24 78 C24 40 50 6 100 6 Z" fill="none" stroke="#5a3b2a" stroke-width="3"/>
+  <path d="M82 146 L84 166 M118 146 L116 166 M96 146 L96 166 M104 146 L104 166" stroke="#6b4a32" stroke-width="2"/>
+  <path d="M80 164 L120 164 L116 190 Q100 196 84 190 Z" fill="#b07a45" stroke="#6b4a32" stroke-width="3"/>
+  <path d="M82 172 L118 172 M83 180 L117 180" stroke="#8a5a30" stroke-width="2"/>
+  <path d="M52 44 Q66 22 92 16" stroke="#fff" stroke-width="6" stroke-linecap="round" fill="none" opacity=".6"/>
+</svg>

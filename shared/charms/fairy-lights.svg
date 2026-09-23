@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <defs>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="5"/></filter>
+  </defs>
+  <path d="M100 0 L100 20 C60 20 20 40 14 70 M100 20 C140 20 180 40 186 70 M100 20 C100 70 60 110 30 130 M100 20 C100 70 140 110 170 130 M100 20 L100 190" fill="none" stroke="#2a3a2a" stroke-width="2.5"/>
+  <g>
+    <g transform="translate(40 36) rotate(20)"><circle r="12" fill="#ff4a4a" filter="url(#glow)" opacity=".8"/><rect x="-4" y="-12" width="8" height="6" fill="#3a3a3a"/><ellipse cy="2" rx="6" ry="9" fill="#ff4a4a"/></g>
+    <g transform="translate(160 36) rotate(-20)"><circle r="12" fill="#4ad0ff" filter="url(#glow)" opacity=".8"/><rect x="-4" y="-12" width="8" height="6" fill="#3a3a3a"/><ellipse cy="2" rx="6" ry="9" fill="#4ad0ff"/></g>
+    <g transform="translate(18 76)"><circle r="12" fill="#ffd23c" filter="url(#glow)" opacity=".8"/><rect x="-4" y="-12" width="8" height="6" fill="#3a3a3a"/><ellipse cy="2" rx="6" ry="9" fill="#ffd23c"/></g>
+    <g transform="translate(182 76)"><circle r="12" fill="#6ae05a" filter="url(#glow)" opacity=".8"/><rect x="-4" y="-12" width="8" height="6" fill="#3a3a3a"/><ellipse cy="2" rx="6" ry="9" fill="#6ae05a"/></g>
+    <g transform="translate(78 92) rotate(30)"><circle r="12" fill="#b77aff" filter="url(#glow)" opacity=".8"/><rect x="-4" y="-12" width="8" height="6" fill="#3a3a3a"/><ellipse cy="2" rx="6" ry="9" fill="#b77aff"/></g>
+    <g transform="translate(122 92) rotate(-30)"><circle r="12" fill="#ff8a3c" filter="url(#glow)" opacity=".8"/><rect x="-4" y="-12" width="8" height="6" fill="#3a3a3a"/><ellipse cy="2" rx="6" ry="9" fill="#ff8a3c"/></g>
+    <g transform="translate(40 128) rotate(40)"><circle r="12" fill="#4ad0ff" filter="url(#glow)" opacity=".8"/><rect x="-4" y="-12" width="8" height="6" fill="#3a3a3a"/><ellipse cy="2" rx="6" ry="9" fill="#4ad0ff"/></g>
+    <g transform="translate(160 128) rotate(-40)"><circle r="12" fill="#ff4a4a" filter="url(#glow)" opacity=".8"/><rect x="-4" y="-12" width="8" height="6" fill="#3a3a3a"/><ellipse cy="2" rx="6" ry="9" fill="#ff4a4a"/></g>
+    <g transform="translate(100 130)"><circle r="12" fill="#6ae05a" filter="url(#glow)" opacity=".8"/><rect x="-4" y="-12" width="8" height="6" fill="#3a3a3a"/><ellipse cy="2" rx="6" ry="9" fill="#6ae05a"/></g>
+    <g transform="translate(100 180)"><circle r="12" fill="#ffd23c" filter="url(#glow)" opacity=".8"/><rect x="-4" y="-12" width="8" height="6" fill="#3a3a3a"/><ellipse cy="2" rx="6" ry="9" fill="#ffd23c"/></g>
+  </g>
+</svg>

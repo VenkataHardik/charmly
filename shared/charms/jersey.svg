@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <defs>
+    <linearGradient id="r" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ff5a5a"/><stop offset="1" stop-color="#c41c2c"/>
+    </linearGradient>
+  </defs>
+  <path d="M100 0 L100 14 C100 22 108 22 108 16" fill="none" stroke="#9aa3b2" stroke-width="4" stroke-linecap="round"/>
+  <path d="M100 18 L30 44 L170 44 Z" fill="none" stroke="#9aa3b2" stroke-width="5" stroke-linejoin="round"/>
+  <path d="M74 40 C84 52 116 52 126 40 L168 58 L186 100 L158 112 L150 96 L150 188 L50 188 L50 96 L42 112 L14 100 L32 58 Z" fill="url(#r)" stroke="#8a1020" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M74 40 C84 52 116 52 126 40" fill="none" stroke="#fff" stroke-width="5"/>
+  <path d="M50 96 L50 188 M150 96 L150 188" stroke="#8a1020" stroke-width="2" opacity=".4"/>
+  <path d="M168 58 L186 100 L178 104 L162 64 Z M32 58 L14 100 L22 104 L38 64 Z" fill="#fff" opacity=".9"/>
+  <text x="100" y="152" text-anchor="middle" font-family="Arial Black, Arial, sans-serif" font-weight="900" font-size="64" fill="#fff" stroke="#8a1020" stroke-width="2">7</text>
+  <path d="M60 70 Q70 110 64 150" stroke="#fff" stroke-width="5" stroke-linecap="round" fill="none" opacity=".35"/>
+</svg>

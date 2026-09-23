@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <path d="M100 6 L118 44 L158 22 L150 64 L194 66 L160 94 L192 122 L148 124 L160 168 L120 144 L100 190 L82 146 L40 170 L52 126 L8 122 L40 94 L6 66 L50 64 L42 22 L82 44 Z" fill="#ff3b3b" stroke="#1a1a22" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M100 30 L112 60 L142 44 L136 74 L168 76 L144 96 L166 116 L134 118 L142 150 L114 132 L100 164 L88 132 L58 150 L66 118 L34 116 L56 96 L32 76 L64 74 L58 44 L88 60 Z" fill="#ffd23c"/>
+  <text x="100" y="116" text-anchor="middle" font-family="Impact, Arial Black, sans-serif" font-weight="900" font-size="46" fill="#ff3b3b" stroke="#1a1a22" stroke-width="3" transform="rotate(-8 100 104)">POW!</text>
+  <g fill="#1a1a22" opacity=".15"><circle cx="70" cy="80" r="3"/><circle cx="80" cy="74" r="3"/><circle cx="76" cy="88" r="3"/><circle cx="130" cy="130" r="3"/><circle cx="122" cy="138" r="3"/></g>
+</svg>

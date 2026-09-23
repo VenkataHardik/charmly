@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <defs>
+    <linearGradient id="s" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2ed3b0"/><stop offset="1" stop-color="#0f7a66"/>
+    </linearGradient>
+    <linearGradient id="w" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#aab4c4"/>
+    </linearGradient>
+  </defs>
+  <g fill="url(#w)" stroke="#5c6678" stroke-width="2.5" stroke-linejoin="round">
+    <path d="M60 70 C40 50 14 46 2 52 C12 62 22 64 30 66 C16 70 8 76 4 84 C18 88 30 86 40 84 C30 92 26 100 26 108 C40 104 52 96 62 88 Z"/>
+    <path d="M140 70 C160 50 186 46 198 52 C188 62 178 64 170 66 C184 70 192 76 196 84 C182 88 170 86 160 84 C170 92 174 100 174 108 C160 104 148 96 138 88 Z"/>
+  </g>
+  <path d="M100 16 C120 28 142 32 156 32 C158 100 142 158 100 186 C58 158 42 100 44 32 C58 32 80 28 100 16 Z" fill="url(#s)" stroke="#0a4a3e" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M100 34 C114 42 130 46 140 46 C140 102 128 146 100 166 C72 146 60 102 60 46 C70 46 86 42 100 34 Z" fill="none" stroke="#b8f5e6" stroke-width="3" opacity=".7"/>
+  <path d="M100 62 L108 84 L132 84 L113 98 L120 122 L100 108 L80 122 L87 98 L68 84 L92 84 Z" fill="#fff" opacity=".95"/>
+  <path d="M60 48 Q70 96 88 140" stroke="#fff" stroke-width="5" stroke-linecap="round" fill="none" opacity=".4"/>
+</svg>

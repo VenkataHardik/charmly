@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <defs>
+    <linearGradient id="m" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#e8e4f8"/><stop offset=".4" stop-color="#ffffff"/><stop offset="1" stop-color="#b8b2d0"/>
+    </linearGradient>
+  </defs>
+  <path d="M100 0 L100 30" stroke="#9aa3b2" stroke-width="3"/>
+  <path d="M78 30 C70 40 86 48 78 58 M100 26 C92 38 108 46 100 58 M122 30 C114 40 130 48 122 58" fill="none" stroke="#c9c4de" stroke-width="4" stroke-linecap="round" opacity=".8"/>
+  <path d="M146 94 C182 94 182 150 146 150" fill="none" stroke="#6a5aa8" stroke-width="14"/>
+  <path d="M146 94 C182 94 182 150 146 150" fill="none" stroke="#b8b2d0" stroke-width="8"/>
+  <path d="M40 70 L160 70 L152 176 C151 186 144 192 134 192 L66 192 C56 192 49 186 48 176 Z" fill="url(#m)" stroke="#6a5aa8" stroke-width="3" stroke-linejoin="round"/>
+  <ellipse cx="100" cy="72" rx="60" ry="10" fill="#5a3218" stroke="#6a5aa8" stroke-width="3"/>
+  <ellipse cx="94" cy="70" rx="24" ry="4" fill="#8a5a38"/>
+  <text x="100" y="136" text-anchor="middle" font-family="Menlo, Consolas, monospace" font-weight="700" font-size="16" fill="#6a5aa8">while(1)</text>
+  <text x="100" y="160" text-anchor="middle" font-family="Menlo, Consolas, monospace" font-weight="700" font-size="13" fill="#ff7ab8">coffee();</text>
+  <path d="M54 86 L60 170" stroke="#fff" stroke-width="5" stroke-linecap="round" opacity=".7"/>
+</svg>

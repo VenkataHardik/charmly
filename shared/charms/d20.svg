@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <path d="M100 0 L100 14" stroke="#d4a23c" stroke-width="3"/>
+  <g stroke="#5a0a14" stroke-width="3" stroke-linejoin="round">
+    <path d="M100 14 L182 60 L182 146 L100 192 L18 146 L18 60 Z" fill="#a8142a"/>
+    <path d="M100 58 L148 138 L52 138 Z" fill="#e8344e"/>
+    <path d="M100 14 L100 58 L18 60 Z" fill="#c41c36"/>
+    <path d="M100 14 L182 60 L100 58 Z" fill="#8a0c20"/>
+    <path d="M18 60 L100 58 L52 138 Z" fill="#d42842"/>
+    <path d="M182 60 L100 58 L148 138 Z" fill="#b01830"/>
+    <path d="M18 60 L52 138 L18 146 Z" fill="#8a0c20"/>
+    <path d="M182 60 L148 138 L182 146 Z" fill="#6a0818"/>
+    <path d="M18 146 L52 138 L100 192 Z" fill="#b01830"/>
+    <path d="M182 146 L148 138 L100 192 Z" fill="#8a0c20"/>
+    <path d="M52 138 L148 138 L100 192 Z" fill="#c41c36"/>
+  </g>
+  <text x="100" y="124" text-anchor="middle" font-family="Georgia, serif" font-weight="700" font-size="34" fill="#fff4d0">20</text>
+  <path d="M34 66 L90 26" stroke="#fff" stroke-width="4" stroke-linecap="round" opacity=".5"/>
+</svg>

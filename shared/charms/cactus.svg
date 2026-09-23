@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#2f8f4a"/><stop offset=".45" stop-color="#6fd27a"/><stop offset="1" stop-color="#227038"/>
+    </linearGradient>
+    <linearGradient id="pot" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f08a5a"/><stop offset="1" stop-color="#b8502a"/>
+    </linearGradient>
+  </defs>
+  <path d="M100 0 L100 18" stroke="#9aa3b2" stroke-width="3"/>
+  <path d="M80 150 L80 40 C80 22 120 22 120 40 L120 150 Z" fill="url(#g)" stroke="#155a28" stroke-width="3"/>
+  <path d="M80 110 L56 110 C44 110 40 100 40 90 L40 62 C40 50 60 50 60 62 L60 92 L80 92 Z" fill="url(#g)" stroke="#155a28" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M120 96 L144 96 C156 96 160 86 160 76 L160 54 C160 42 140 42 140 54 L140 78 L120 78 Z" fill="url(#g)" stroke="#155a28" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M100 30 L100 146 M90 40 L90 146 M110 40 L110 146" stroke="#155a28" stroke-width="1.5" opacity=".5"/>
+  <g stroke="#fff6d0" stroke-width="2" stroke-linecap="round"><path d="M76 60 L70 58 M76 84 L70 84 M124 64 L130 62 M124 120 L130 120 M76 130 L70 132 M44 72 L38 70 M156 64 L162 62"/></g>
+  <g transform="translate(100 24)"><circle r="8" fill="#ff5a8a"/><circle r="3.5" fill="#ffd23c"/></g>
+  <ellipse cx="92" cy="96" rx="4" ry="5" fill="#1a3a20"/><ellipse cx="108" cy="96" rx="4" ry="5" fill="#1a3a20"/>
+  <path d="M94 106 Q100 112 106 106" fill="none" stroke="#1a3a20" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M58 148 L142 148 L134 192 L66 192 Z" fill="url(#pot)" stroke="#7a3014" stroke-width="3" stroke-linejoin="round"/>
+  <rect x="52" y="140" width="96" height="16" rx="4" fill="#f5a070" stroke="#7a3014" stroke-width="3"/>
+</svg>

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <defs>
+    <linearGradient id="c" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/><stop offset=".7" stop-color="#eef2ff"/><stop offset="1" stop-color="#c9d3f5"/>
+    </linearGradient>
+  </defs>
+  <path d="M48 166 C22 166 10 146 14 128 C18 110 34 102 48 104 C48 76 72 60 94 66 C104 44 136 40 152 60 C164 74 162 90 158 98 C180 98 194 116 188 138 C184 156 168 166 152 166 Z" fill="url(#c)" stroke="#aeb9e6" stroke-width="3.5" stroke-linejoin="round"/>
+  <path d="M70 124 Q80 132 90 124 M112 124 Q122 132 132 124" fill="none" stroke="#3b3a64" stroke-width="4" stroke-linecap="round"/>
+  <path d="M94 142 Q101 147 108 142" fill="none" stroke="#3b3a64" stroke-width="3.5" stroke-linecap="round"/>
+  <ellipse cx="64" cy="142" rx="10" ry="6" fill="#ffb3cf" opacity=".6"/><ellipse cx="138" cy="142" rx="10" ry="6" fill="#ffb3cf" opacity=".6"/>
+  <g fill="#8a95d8" font-family="Arial Rounded MT Bold, Arial, sans-serif" font-weight="700">
+    <text x="150" y="58" font-size="22">z</text><text x="166" y="40" font-size="16">z</text><text x="178" y="26" font-size="11">z</text>
+  </g>
+  <path d="M40 116 Q50 102 64 106 M80 76 Q92 66 106 70" fill="none" stroke="#fff" stroke-width="6" stroke-linecap="round"/>
+  <path d="M60 176 L56 188 M100 178 L96 192 M140 176 L136 188" stroke="#8fd3ff" stroke-width="4" stroke-linecap="round" opacity=".8"/>
+</svg>

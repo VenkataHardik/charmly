@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <defs>
+    <radialGradient id="w" cx="38%" cy="32%" r="75%">
+      <stop offset="0" stop-color="#ffffff"/><stop offset=".7" stop-color="#eceff4"/><stop offset="1" stop-color="#aeb6c4"/>
+    </radialGradient>
+    <clipPath id="c"><circle cx="100" cy="104" r="86"/></clipPath>
+  </defs>
+  <circle cx="100" cy="104" r="86" fill="url(#w)"/>
+  <g clip-path="url(#c)" fill="#1c2230">
+    <path d="M100 76 L126 95 L116 126 L84 126 L74 95 Z"/>
+    <path d="M100 18 L118 30 L100 42 L82 30 Z"/>
+    <path d="M160 58 L184 74 L178 100 L156 92 L150 68 Z"/>
+    <path d="M40 58 L16 74 L22 100 L44 92 L50 68 Z"/>
+    <path d="M150 150 L172 146 L176 172 L156 188 L140 172 Z"/>
+    <path d="M50 150 L28 146 L24 172 L44 188 L60 172 Z"/>
+  </g>
+  <g clip-path="url(#c)" stroke="#9aa3b4" stroke-width="2" fill="none">
+    <path d="M100 42 L100 76 M126 95 L150 68 M116 126 L140 172 M84 126 L60 172 M74 95 L50 68 M118 30 L150 68 M82 30 L50 68 M44 92 L74 95 M156 92 L126 95 M100 188 L116 126"/>
+  </g>
+  <circle cx="100" cy="104" r="86" fill="none" stroke="#5c6474" stroke-width="3"/>
+  <path d="M40 76 Q56 40 96 30" stroke="#fff" stroke-width="7" stroke-linecap="round" fill="none" opacity=".8"/>
+</svg>

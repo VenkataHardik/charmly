@@ -1,0 +1,26 @@
+{
+  "name": "charmly-desktop",
+  "productName": "Charmly",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Tiny swinging charms for your desktop.",
+  "main": "main.js",
+  "author": "Charmly",
+  "license": "MIT",
+  "scripts": {
+    "sync": "node ../scripts/sync-shared.mjs app",
+    "dev": "npm run sync && electron .",
+    "icon": "npm run sync && electron scripts/make-icon.js",
+    "prepack": "npm run sync",
+    "dist": "npm run sync && electron-builder --config electron-builder.config.js",
+    "dist:mac": "npm run sync && electron-builder --config electron-builder.config.js --mac",
+    "dist:win": "npm run sync && electron-builder --config electron-builder.config.js --win"
+  },
+  "dependencies": {
+    "electron-updater": "^6.8.9"
+  },
+  "devDependencies": {
+    "electron": "44.4.5",
+    "electron-builder": "^26.0.0"
+  }
+}

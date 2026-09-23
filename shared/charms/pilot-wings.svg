@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fff0b0"/><stop offset=".5" stop-color="#e2b240"/><stop offset="1" stop-color="#94640f"/>
+    </linearGradient>
+    <linearGradient id="n" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3f63d9"/><stop offset="1" stop-color="#172f7a"/>
+    </linearGradient>
+  </defs>
+  <g fill="url(#g)" stroke="#7a520e" stroke-width="2.5" stroke-linejoin="round">
+    <path d="M84 92 C60 78 30 74 4 80 C20 88 34 90 48 92 C30 94 18 98 10 104 C30 108 48 106 62 104 C50 110 42 116 38 122 C58 122 72 116 84 108 Z"/>
+    <path d="M116 92 C140 78 170 74 196 80 C180 88 166 90 152 92 C170 94 182 98 190 104 C170 108 152 106 138 104 C150 110 158 116 162 122 C142 122 128 116 116 108 Z"/>
+  </g>
+  <g stroke="#94640f" stroke-width="1.5" opacity=".7" fill="none">
+    <path d="M30 84 L78 94 M26 100 L78 102 M50 114 L80 106"/><path d="M170 84 L122 94 M174 100 L122 102 M150 114 L120 106"/>
+  </g>
+  <path d="M100 60 L126 70 L124 100 C122 116 112 126 100 132 C88 126 78 116 76 100 L74 70 Z" fill="url(#n)" stroke="#7a520e" stroke-width="4"/>
+  <path d="M100 76 L104 90 L118 90 L107 98 L111 112 L100 104 L89 112 L93 98 L82 90 L96 90 Z" fill="url(#g)"/>
+  <path d="M100 26 L100 60" stroke="#c9982e" stroke-width="4"/>
+  <circle cx="100" cy="22" r="7" fill="none" stroke="#c9982e" stroke-width="4"/>
+  <path d="M20 80 Q50 72 80 86" stroke="#fffbe0" stroke-width="3" fill="none" stroke-linecap="round" opacity=".8"/>
+</svg>

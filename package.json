@@ -1,0 +1,20 @@
+{
+  "name": "charmly-monorepo",
+  "private": true,
+  "workspaces": [
+    "app",
+    "web"
+  ],
+  "scripts": {
+    "sync": "node scripts/sync-shared.mjs",
+    "dev:app": "npm run dev -w app",
+    "dev:web": "npm run dev -w web",
+    "build:web": "npm run build -w web",
+    "dist:mac": "npm run dist:mac -w app",
+    "dist:win": "npm run dist:win -w app",
+    "check": "node scripts/check.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

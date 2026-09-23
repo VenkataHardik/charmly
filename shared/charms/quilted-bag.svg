@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <defs>
+    <linearGradient id="b" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffc4d8"/><stop offset="1" stop-color="#e07aa0"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fff0b0"/><stop offset=".5" stop-color="#e2b040"/><stop offset="1" stop-color="#8a5c0c"/>
+    </linearGradient>
+    <clipPath id="c"><rect x="24" y="84" width="152" height="104" rx="14"/></clipPath>
+  </defs>
+  <path d="M58 90 C58 26 142 26 142 90" fill="none" stroke="#b8507a" stroke-width="12" stroke-linecap="round"/><path d="M58 90 C58 26 142 26 142 90" fill="none" stroke="#ffd6e4" stroke-width="3" stroke-linecap="round" opacity=".6"/>
+  <rect x="24" y="84" width="152" height="104" rx="14" fill="url(#b)" stroke="#8a3a5a" stroke-width="3"/>
+  <g clip-path="url(#c)" stroke="#fff" stroke-width="2" opacity=".35">
+    <path d="M0 84 L104 188 M30 84 L134 188 M60 84 L164 188 M90 84 L194 188 M120 84 L224 188 M-30 84 L74 188 M-60 84 L44 188"/>
+    <path d="M200 84 L96 188 M170 84 L66 188 M140 84 L36 188 M110 84 L6 188 M80 84 L-24 188 M230 84 L126 188 M260 84 L156 188"/>
+  </g>
+  <path d="M24 98 C24 90 30 84 38 84 L162 84 C170 84 176 90 176 98 L176 124 L24 124 Z" fill="url(#b)" stroke="#8a3a5a" stroke-width="3"/>
+  <path d="M100 136 C86 126 84 116 90 112 C95 109 99 112 100 116 C101 112 105 109 110 112 C116 116 114 126 100 136 Z" fill="url(#gold)" stroke="#6b4608" stroke-width="2"/>
+  <path d="M34 92 Q60 88 90 90" stroke="#fff" stroke-width="3" stroke-linecap="round" fill="none" opacity=".6"/>
+</svg>

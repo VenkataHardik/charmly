@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <defs>
+    <linearGradient id="brass" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fff0b8"/><stop offset=".4" stop-color="#d4a23c"/><stop offset="1" stop-color="#6b470e"/>
+    </linearGradient>
+    <radialGradient id="face" cx="50%" cy="40%" r="65%">
+      <stop offset="0" stop-color="#fdf8ec"/><stop offset="1" stop-color="#e2d4b4"/>
+    </radialGradient>
+  </defs>
+  <circle cx="100" cy="18" r="10" fill="none" stroke="url(#brass)" stroke-width="6"/>
+  <rect x="90" y="24" width="20" height="16" rx="4" fill="url(#brass)" stroke="#6b470e" stroke-width="2"/>
+  <circle cx="100" cy="116" r="80" fill="url(#brass)" stroke="#6b470e" stroke-width="3"/>
+  <circle cx="100" cy="116" r="66" fill="url(#face)" stroke="#8a6414" stroke-width="3"/>
+  <g stroke="#6b5a3a" stroke-width="2">
+    <path d="M100 54 L100 62 M100 170 L100 178 M38 116 L46 116 M154 116 L162 116"/>
+    <path d="M144 72 L139 77 M56 72 L61 77 M144 160 L139 155 M56 160 L61 155" stroke-width="1.5"/>
+  </g>
+  <path d="M100 64 L110 116 L100 168 L90 116 Z" fill="#2c3448"/>
+  <path d="M48 116 L100 106 L152 116 L100 126 Z" fill="#8a94a8"/>
+  <path d="M100 64 L110 116 L90 116 Z" fill="#d93a2e"/>
+  <circle cx="100" cy="116" r="6" fill="url(#brass)" stroke="#6b470e" stroke-width="1.5"/>
+  <text x="100" y="82" text-anchor="middle" font-family="Georgia, serif" font-weight="700" font-size="14" fill="#2c3448">N</text>
+  <path d="M52 86 Q70 58 104 52" stroke="#fff" stroke-width="7" stroke-linecap="round" fill="none" opacity=".55"/>
+</svg>

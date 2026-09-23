@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <defs>
+    <linearGradient id="s" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/><stop offset=".45" stop-color="#dfe4ec"/><stop offset="1" stop-color="#9aa3b2"/>
+    </linearGradient>
+  </defs>
+  <g transform="rotate(-8 100 110)">
+    <path d="M44 80 C28 62 6 76 14 94 C4 104 12 126 30 122 C36 136 58 136 60 118 L140 118 C142 136 164 136 170 122 C188 126 196 104 186 94 C194 76 172 62 156 80 C154 76 150 76 140 82 L60 82 C50 76 46 76 44 80 Z" fill="url(#s)" stroke="#6c7482" stroke-width="3" stroke-linejoin="round"/>
+    <text x="100" y="109" text-anchor="middle" font-family="Arial Rounded MT Bold, Arial Black, Arial, sans-serif" font-weight="900" font-size="22" fill="#4a5262" letter-spacing="1">GOOD BOY</text>
+    <path d="M34 88 Q40 80 50 84 M70 88 L130 88" stroke="#fff" stroke-width="4" stroke-linecap="round" opacity=".9"/>
+  </g>
+  <circle cx="100" cy="30" r="10" fill="none" stroke="#9aa3b2" stroke-width="5"/>
+  <path d="M100 40 L100 84" stroke="#9aa3b2" stroke-width="5"/>
+</svg>

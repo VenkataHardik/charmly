@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <defs>
+    <radialGradient id="w" cx="45%" cy="35%" r="75%">
+      <stop offset="0" stop-color="#ffd98a"/><stop offset=".7" stop-color="#e8a640"/><stop offset="1" stop-color="#b8741c"/>
+    </radialGradient>
+    <clipPath id="c"><circle cx="100" cy="108" r="84"/></clipPath>
+  </defs>
+  <path d="M100 0 L100 24" stroke="#9aa3b2" stroke-width="3"/>
+  <circle cx="100" cy="108" r="88" fill="#a8641a"/>
+  <circle cx="100" cy="108" r="84" fill="url(#w)"/>
+  <g clip-path="url(#c)" fill="#c9832a" stroke="#9a5a14" stroke-width="1.5">
+    <rect x="24" y="30" width="22" height="22" rx="4"/><rect x="56" y="30" width="22" height="22" rx="4"/><rect x="88" y="30" width="22" height="22" rx="4"/><rect x="120" y="30" width="22" height="22" rx="4"/><rect x="152" y="30" width="22" height="22" rx="4"/>
+    <rect x="24" y="62" width="22" height="22" rx="4"/><rect x="56" y="62" width="22" height="22" rx="4"/><rect x="88" y="62" width="22" height="22" rx="4"/><rect x="120" y="62" width="22" height="22" rx="4"/><rect x="152" y="62" width="22" height="22" rx="4"/>
+    <rect x="24" y="94" width="22" height="22" rx="4"/><rect x="56" y="94" width="22" height="22" rx="4"/><rect x="88" y="94" width="22" height="22" rx="4"/><rect x="120" y="94" width="22" height="22" rx="4"/><rect x="152" y="94" width="22" height="22" rx="4"/>
+    <rect x="24" y="126" width="22" height="22" rx="4"/><rect x="56" y="126" width="22" height="22" rx="4"/><rect x="88" y="126" width="22" height="22" rx="4"/><rect x="120" y="126" width="22" height="22" rx="4"/><rect x="152" y="126" width="22" height="22" rx="4"/>
+    <rect x="24" y="158" width="22" height="22" rx="4"/><rect x="56" y="158" width="22" height="22" rx="4"/><rect x="88" y="158" width="22" height="22" rx="4"/><rect x="120" y="158" width="22" height="22" rx="4"/><rect x="152" y="158" width="22" height="22" rx="4"/>
+  </g>
+  <path d="M60 80 C60 60 140 56 144 84 C148 108 126 104 124 124 C122 140 108 132 104 118 C98 100 80 112 72 102 C66 96 60 94 60 80 Z" fill="#8a3a0a" opacity=".85"/>
+  <rect x="84" y="70" width="32" height="24" rx="5" fill="#fff4b0" stroke="#e8c84a" stroke-width="2" transform="rotate(-8 100 82)"/>
+  <path d="M70 74 Q90 64 112 66" stroke="#fff" stroke-width="3" stroke-linecap="round" fill="none" opacity=".6"/>
+</svg>

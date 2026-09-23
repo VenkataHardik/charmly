@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <defs>
+    <radialGradient id="fur" cx="45%" cy="30%" r="75%">
+      <stop offset="0" stop-color="#ffe3a8"/><stop offset=".65" stop-color="#f1bd6a"/><stop offset="1" stop-color="#c98a3a"/>
+    </radialGradient>
+    <linearGradient id="ear" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e8aa55"/><stop offset="1" stop-color="#b3722c"/>
+    </linearGradient>
+    <linearGradient id="band" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5aa9ff"/><stop offset="1" stop-color="#2459c9"/>
+    </linearGradient>
+  </defs>
+  <path d="M44 50 C22 58 14 96 22 120 C28 136 44 138 52 126 C60 112 60 88 62 70 Z" fill="url(#ear)" stroke="#9c6424" stroke-width="3"/>
+  <path d="M156 50 C178 58 186 96 178 120 C172 136 156 138 148 126 C140 112 140 88 138 70 Z" fill="url(#ear)" stroke="#9c6424" stroke-width="3"/>
+  <ellipse cx="100" cy="100" rx="62" ry="64" fill="url(#fur)" stroke="#a86c2a" stroke-width="3"/>
+  <ellipse cx="100" cy="126" rx="34" ry="26" fill="#fff4dc"/>
+  <ellipse cx="76" cy="94" rx="11" ry="13" fill="#24140a"/><ellipse cx="124" cy="94" rx="11" ry="13" fill="#24140a"/>
+  <circle cx="72" cy="89" r="4.5" fill="#fff"/><circle cx="120" cy="89" r="4.5" fill="#fff"/>
+  <circle cx="80" cy="100" r="2" fill="#fff" opacity=".8"/><circle cx="128" cy="100" r="2" fill="#fff" opacity=".8"/>
+  <ellipse cx="100" cy="114" rx="11" ry="8" fill="#231510"/>
+  <path d="M100 122 L100 128 M88 128 Q100 138 112 128" fill="none" stroke="#5a3620" stroke-width="3" stroke-linecap="round"/>
+  <path d="M104 130 C104 148 120 148 120 132 Z" fill="#ff7f9a" stroke="#d9546f" stroke-width="2"/>
+  <ellipse cx="60" cy="118" rx="10" ry="6" fill="#ff9a8a" opacity=".45"/><ellipse cx="140" cy="118" rx="10" ry="6" fill="#ff9a8a" opacity=".45"/>
+  <path d="M44 150 Q100 182 156 150 L150 166 Q100 196 50 166 Z" fill="url(#band)" stroke="#1b3f94" stroke-width="2.5"/>
+  <g fill="#fff" opacity=".85"><circle cx="70" cy="166" r="3"/><circle cx="92" cy="174" r="3"/><circle cx="116" cy="173" r="3"/><circle cx="136" cy="164" r="3"/></g>
+  <path d="M58 64 Q76 42 104 40" fill="none" stroke="#fff6de" stroke-width="6" stroke-linecap="round" opacity=".75"/>
+</svg>

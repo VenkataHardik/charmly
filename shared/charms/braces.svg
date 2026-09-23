@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffb3e0"/><stop offset=".5" stop-color="#b18cff"/><stop offset="1" stop-color="#5a7aff"/>
+    </linearGradient>
+  </defs>
+  <path d="M100 0 L100 40" stroke="#9aa3b2" stroke-width="3"/>
+  <circle cx="100" cy="46" r="7" fill="none" stroke="#9aa3b2" stroke-width="3"/>
+  <g fill="none" stroke="url(#g)" stroke-width="18" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M74 52 C52 52 50 62 50 80 L50 100 C50 112 40 118 28 118 C40 118 50 124 50 136 L50 156 C50 174 52 184 74 184"/>
+    <path d="M126 52 C148 52 150 62 150 80 L150 100 C150 112 160 118 172 118 C160 118 150 124 150 136 L150 156 C150 174 148 184 126 184"/>
+  </g>
+  <g fill="none" stroke="#2a1a4a" stroke-width="2" opacity=".3">
+    <path d="M74 52 C52 52 50 62 50 80 L50 100 C50 112 40 118 28 118 C40 118 50 124 50 136 L50 156 C50 174 52 184 74 184"/>
+    <path d="M126 52 C148 52 150 62 150 80 L150 100 C150 112 160 118 172 118 C160 118 150 124 150 136 L150 156 C150 174 148 184 126 184"/>
+  </g>
+  <circle cx="84" cy="118" r="7" fill="#ffd35f"/><circle cx="100" cy="118" r="7" fill="#ffd35f"/><circle cx="116" cy="118" r="7" fill="#ffd35f"/>
+  <path d="M46 70 L46 96" stroke="#fff" stroke-width="4" stroke-linecap="round" opacity=".6"/>
+</svg>
