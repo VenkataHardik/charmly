@@ -14,3 +14,5 @@ app/src/charm-names.json
 web/src/shared/
 web/public/charms/
 web/src/brand.json
+.vercel
+.env*

@@ -3,13 +3,13 @@
 import { readFileSync, existsSync, readdirSync } from 'node:fs';
 import { execFileSync } from 'node:child_process';
 import { join, dirname } from 'node:path';
-import { fileURLToPath } from 'node:url';
+import { fileURLToPath, pathToFileURL } from 'node:url';
 import assert from 'node:assert/strict';
 
 const root = join(dirname(fileURLToPath(import.meta.url)), '..');
-const { COLLECTIONS, ALL_CHARMS } = await import(join(root, 'shared/charms.js'));
-const engine = await import(join(root, 'shared/engine.js'));
-const { ROPE_STYLES } = await import(join(root, 'shared/ropes.js'));
+const { COLLECTIONS, ALL_CHARMS } = await import(pathToFileURL(join(root, 'shared/charms.js')).href);
+const engine = await import(pathToFileURL(join(root, 'shared/engine.js')).href);
+const { ROPE_STYLES } = await import(pathToFileURL(join(root, 'shared/ropes.js')).href);
 
 let failures = 0;
 function check(name, fn) {
